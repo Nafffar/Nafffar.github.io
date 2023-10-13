@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: "DMSans-Regular";
+}
+
+.wrap{
+    width: 1440px;
+    border: solid 1px black;
+    margin: auto;
+    background-color: #191919;
+}

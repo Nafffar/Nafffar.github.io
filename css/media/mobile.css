@@ -1,0 +1,109 @@
+@media(max-width: 1090px){
+    .nextLevel{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        height: auto;
+        padding: 40px 70px 40px 70px;
+    }
+
+    .nextLevel .listenOn
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nextLevel .listenOn{
+    padding-left: 0;
+}
+}
+@media(max-width: 1024px){
+    .lastEpisodes .episode{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lastEpisodes .episode img{
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .lastEpisodes .episode .content{
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 720px){
+    nav .burger{
+        display: block;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    nav .burger:hover + ul /*+ означает следующий элемент и только он после burger (при наличии нескольких ul)*/
+    nav ul:hover
+    {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        right: 30px;   
+    }
+
+    header
+    {
+        padding: 0 100px 0 50px ;
+    }
+
+    nav li
+    {
+        border: solid 1px white;
+        text-align: center;
+        display: block;
+        width: 100px;
+    }
+
+    .nextLevel .frontImg
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 630px){
+
+    .nextLevel .frontImg
+    {
+        height: 774px;
+    }
+    .lastEpisodes .episode img
+    {
+        width: 95%;
+    }
+
+    .lastEpisodes{
+        padding: 0;
+    }
+}
+
+
+
+@media (max-width: 470px){
+
+    .nextLevel .frontImg
+    {
+        height: 600px;
+    }
+
+    .episode .title{
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .episode .desc{
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

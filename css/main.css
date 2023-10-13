@@ -1,0 +1,286 @@
+.nextLevel
+{
+    height: 913px;
+    padding: 40px 70px 0 70px;
+    display: flex;
+}
+
+.nextLevel .frontImg img
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 74px;
+}
+.nextLevel .frontImg
+{
+    width: 650px;
+    height: 873px;
+    flex: none;
+}
+
+
+.nextLevel .content
+{
+    transition: padding 1s ease;
+    padding: 350px 50px 0 50px;
+
+}
+
+.nextLevel .content span /*этот блок влияет свойствами на следующий из-за схожего тега span*/
+{
+    font-size: 70px;
+    line-height: 88px;
+    color: #ffffff;
+    font-family: "DMSans-Regular";
+
+}
+
+.nextLevel .textCont
+{
+    margin-bottom: 74px;
+}
+
+.nextLevel .textCont .spanNext
+{
+    background-image: url(../img/line.png);
+}
+
+.nextLevel .listenOn span
+{
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.nextLevel .listenOn
+{
+    padding-left: 22px;
+}
+
+.nextLevel .imgCont a
+{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 17px;  
+
+}
+.nextLevel .imgCont a:nth-child(1)
+{
+    background-image: url(../img/links/1.png);
+}
+
+.nextLevel .imgCont a:nth-child(2)
+{
+    background-image: url(../img/links/2.png); 
+}
+
+.nextLevel .imgCont a:nth-child(3)
+{
+    background-image: url(../img/links/3.png);
+}
+
+.nextLevel .imgCont a:nth-child(4)
+{
+    background-image: url(../img/links/4.png);
+}
+
+.nextLevel .imgCont a:nth-child(5)
+{
+    background-image: url(../img/links/5.png);
+}
+
+.nextLevel .imgCont a:last-child
+{
+    margin-right: 0;
+}
+
+.nextLevel .angle
+{
+    width: 68px;
+    height: 74px;
+    background-image: url("../img/angle.png");
+    position: relative;
+    z-index: 2;
+    right: 25px;
+    bottom: 25px;
+}
+
+/*Начинается блок lastEpisodes*/
+
+.lastEpisodes{
+    padding: 100px 70px 160px 70px;
+
+}
+.lastEpisodes .viewAll 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.lastEpisodes .viewAll span{
+    
+    font-size: 54px;
+    line-height: 79px;
+}
+
+.lastEpisodes .viewAll a{
+    width: 178px;
+    height: 51px;
+    font-size: 17px;
+    line-height: 27px;
+    background-color: #118DA8;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.lastEpisodes .episode
+{
+    background-color: #000000;
+    border-radius: 32px;
+    display: flex;
+    padding: 40px;
+    margin-bottom: 60px;
+}
+.lastEpisodes .episode:last-child
+{
+    margin-bottom: 0;
+}
+
+.lastEpisodes .episode .content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start; /*не позволяет растягивать блок на всю длину родительского блока*/
+}
+
+.lastEpisodes .episode img
+{
+    width: 389px;
+    height: 465px;
+    margin-right: 53px;
+}
+
+.lastEpisodes .episode .content div
+{
+    height: 27px;
+    background-color: #191919;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 48px;
+    padding: 0 16px;
+}
+
+.episode .episodeNum{
+    font-size: 17px;
+    line-height: 27px;
+    color: #118DA8;
+    text-decoration: none;
+    margin-bottom: 18px;
+}
+
+.episode .title{
+    font-size: 64px;
+    line-height: 70px;
+    margin-bottom: 22px;
+}
+
+.episode .desc{
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFFB2;
+    margin-bottom: 18px;
+
+}
+
+.episode .details{
+    width: 208px;
+    height: 51px;
+    border-radius: 6px;
+    background-color:#118DA8;
+    text-decoration: none;
+    line-height: 51px;
+    text-align: center;
+}
+
+ /*------------------домашка--------------------*/
+.block-man{
+    margin: 0 20px;
+}
+
+
+.block-inside{
+    height: 743px;
+    display: flex;
+    margin: 100px 50px;
+    
+
+}
+
+.bio{
+    width: 590px;
+    height: 448px;
+    margin: 147px 60px 147px 0;
+}
+
+.button-arrow{
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #118DA8;
+    margin-bottom: 20px;
+    
+}
+
+.button-host{
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+    text-decoration: none; 
+    display: block;   
+}
+
+.host{
+    width: 496px;
+    height: 80px;
+   font-size: 65px;
+   line-height: 79px;
+   color: #ffffff; 
+   display: block;
+   margin-bottom: 28px;
+   
+}
+
+.his-bio{
+    width: 556px;
+    height: 66px;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFFB2;
+    display: block;
+    margin-bottom: 33px;
+   
+}
+
+.bio .his-bio:last-child{
+    margin-bottom: 0;
+}
+
+.pictures-man img{ /*нужно ли оставлять свойство размеров пикчи если они уже по характеристикам соответсвуют необходимым?*/
+    width: 650px;
+    height: 743px;
+}
+
