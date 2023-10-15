@@ -5,12 +5,54 @@
 }
 
 
+
 @media (max-width: 1240px){ 
-    .nextLevel .content
-{
+    .nextLevel .content{
     transition: padding 1s ease;
     padding: 50px 50px 0 50px;
 }
+.nextLevel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    height: auto;
+    padding: 40px 70px 40px 70px;
+}
+
+.nextLevel .listenOn
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nextLevel .listenOn{
+padding-left: 0;
+}
+    .block-inside{
+        flex-direction: column-reverse;
+
+
+    }
+    .links,  .nav-links, .about-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .castaway{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-links, .about-links{
+        margin: 0 0 20px 0;
+        
+    }
+
+    .music-links{
+        text-align: center;
+    }
 }
 
 @media(max-width: 1024px){

@@ -213,35 +213,29 @@
 }
 
  /*------------------домашка--------------------*/
-.block-man{
-    margin: 0 20px;
-}
 
 
 .block-inside{
-    height: 743px;
     display: flex;
-    margin: 100px 50px;
-    
-
+    justify-content: space-between;
+    padding: 100px 70px;
 }
 
 .bio{
-    width: 590px;
-    height: 448px;
-    margin: 147px 60px 147px 0;
+    padding: 147px 60px 147px 0;
 }
 
 .button-arrow{
+    display: block;
     width: 112px;
     height: 112px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
     background-color: #118DA8;
     margin-bottom: 20px;
+
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat; /*не дублирует картинку внутри блока*/
+    background-position: center;
     
 }
 
@@ -254,8 +248,6 @@
 }
 
 .host{
-    width: 496px;
-    height: 80px;
    font-size: 65px;
    line-height: 79px;
    color: #ffffff; 
@@ -265,8 +257,6 @@
 }
 
 .his-bio{
-    width: 556px;
-    height: 66px;
     font-size: 22px;
     line-height: 33px;
     color: #FFFFFFB2;
@@ -279,7 +269,7 @@
     margin-bottom: 0;
 }
 
-.pictures-man img{ /*нужно ли оставлять свойство размеров пикчи если они уже по характеристикам соответсвуют необходимым?*/
+.pictures-man img{ /*нужно ли оставлять свойство размеров пикчи если они уже по характеристикам соответсвуют необходимым? Да, лучше оставить, для наглядности*/
     width: 650px;
     height: 743px;
 }

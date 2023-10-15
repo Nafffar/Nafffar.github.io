@@ -1,0 +1,111 @@
+.last-block{
+    padding: 20px;
+}
+
+.links{
+    display: flex;
+    padding: 100px 50px;
+}
+
+.castaway{
+    width: 447px;
+    height: 222px;
+    margin-right: 16px;
+}
+.castaway img{
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.links .castaway div{
+    display: flex;
+}
+
+.links .castaway div a{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+
+}
+.links .castaway a:nth-child(1){
+    background-image: url(../img/socialnetwork/inst.png);
+}
+
+.links .castaway a:nth-child(2){
+    background-image: url(../img/socialnetwork/twit.png);
+}
+
+.links .castaway a:nth-child(3){
+    background-image: url(../img/socialnetwork/facebook.png);
+}
+
+.links .castaway a:last-child{
+    margin-right: 0;
+}
+
+.nav-links{
+    width: 179px;
+    margin-right: 16px;
+}
+
+.nav-links a{
+    display: block;
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.about-links{
+    width: 179px;
+    height: 222px;
+    margin-right: 16px;
+}
+
+.about-links a{
+    display: block;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.last-block .links .music-links a
+{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 17px;  
+
+}
+.links .music-links a:nth-child(1)
+{
+    background-image: url(../img/links/1.png);
+}
+
+.links .music-links a:nth-child(2)
+{
+    background-image: url(../img/links/2.png); 
+}
+
+.links .music-links a:nth-child(3)
+{
+    background-image: url(../img/links/3.png);
+}
+
+.links .music-links a:nth-child(4)
+{
+    background-image: url(../img/links/4.png);
+}
+
+.links .music-links a:nth-child(5)
+{
+    background-image: url(../img/links/5.png);
+}
+
+.links .music-links a:last-child
+{
+    margin-right: 0;
+}
