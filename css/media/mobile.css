@@ -157,6 +157,15 @@
         line-height: 24px;
     }
 
+    .viewAll{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .viewAll span{
+        text-align: center;
+    }
+
     /**/
 
     .links,  .nav-links, .about-links{
