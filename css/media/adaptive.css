@@ -50,9 +50,13 @@ padding-left: 0;
         
     }
 
-    .music-links{
-        text-align: center;
-    }
+    .subscribe form input[type="text"],/*ДОМАШНЕЕ ДОБАВЛЕНИЕ*/
+    .subscribe form input[type="email"]{
+        width: 320px;
+        transition-timing-function: ease;
+        transition-duration: 1s;
+    } 
+ 
 }
 
 @media(max-width: 1024px){
@@ -68,6 +72,15 @@ padding-left: 0;
 
     .lastEpisodes .episode .content{
         align-items: center;
+    }
+
+    .subscribe .title span:nth-child(2){/*ДОМАШНЕЕ ДОБАВЛЕНИЕ*/
+        font-size: 52px;
+        line-height: 59px;
+        width: 300px;
+        transition-timing-function: ease;
+        transition-duration: 1s;
+        
     }
 }
 

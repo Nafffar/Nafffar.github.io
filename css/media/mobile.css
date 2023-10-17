@@ -33,10 +33,14 @@
         margin: 0 0 20px 0;
         
     }
+}
 
-    .music-links{
-        text-align: center;
+@media (max-width: 880px){  /*ДОМАШНЕЕ ДОБАВЛЕНИЕ*/
+    .subscribe .episode{
+        flex-direction: column;
+        align-items: center;
     }
+
 }
 
 
@@ -76,27 +80,6 @@
         width: 100%;
     }
 
-
-    /**/
-    .links,  .nav-links, .about-links{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .castaway{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .nav-links, .about-links{
-        margin: 0 0 20px 0;
-        
-    }
-
-    .music-links{
-        text-align: center;
-    }
 }
 
 @media (max-width: 630px){
@@ -114,29 +97,6 @@
         padding: 0;
     }
 
-
-    /**/
-
-    .links,  .nav-links, .about-links{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .castaway{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .nav-links, .about-links{
-        margin: 0 0 20px 0;
-        
-    }
-
-    .music-links{
-        text-align: center;
-    }
-    
     .viewAll{
         display: flex;
         flex-direction: column;
@@ -146,8 +106,6 @@
         text-align: center;
     }
 }
-
-
 
 @media (max-width: 470px){
 
@@ -166,53 +124,24 @@
         line-height: 24px;
     }
 
-    .viewAll{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .viewAll span{
-        text-align: center;
-    }
-
-    /**/
-
-    .links,  .nav-links, .about-links{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .castaway{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .nav-links, .about-links{
-        margin: 0 0 20px 0;
-        
+    .subscribe .title span:nth-child(2){/*ДОМАШНЕЕ ДОБАВЛЕНИЕ*/
+        font-size: 42px;
+        line-height: 49px;
+        width: 230px;
+        transition-timing-function: ease;
+        transition-duration: 1s; 
     }
 
-    .music-links{
-        text-align: center;
+    .subscribe form input[type="text"], /*ДОМАШНЕЕ ДОБАВЛЕНИЕ*/
+    .subscribe form input[type="email"]{
+    width: 230px;
+    line-height: 42px;
+    font-size: 18px;
     }
-}
 
-@media (max-width: 420px){
-
-    .links,  .nav-links, .about-links{
-        display: flex;
-        flex-direction: column;
+    .subscribe form{ /*ДОМАШНЕЕ ДОБАВЛЕНИЕ*/
         align-items: center;
     }
-    .castaway{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .nav-links, .about-links{
-        margin: 0 0 20px 0;
-        
-    }
+
+
 }

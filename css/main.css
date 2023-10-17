@@ -140,14 +140,25 @@
     text-decoration: none;
 }
 
-.lastEpisodes .episode
+.lastEpisodes .episode,
+.subscribe .episode 
 {
     background-color: #000000;
     border-radius: 32px;
     display: flex;
+}
+
+.lastEpisodes .episode{
     padding: 40px;
     margin-bottom: 60px;
 }
+
+.subscribe .episode{
+    padding: 60px;
+    justify-content:space-between;
+}
+
+
 .lastEpisodes .episode:last-child
 {
     margin-bottom: 0;
@@ -274,3 +285,61 @@
     height: 743px;
 }
 
+.subscribe{
+    padding: 100px 50px;
+}
+
+.subscribe .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /*прижать к верхнему краю по очи Y*/
+    align-items: start; /*прижать к левой стороне по оси X*/
+    
+}
+
+
+.subscribe .title span:nth-child(1){
+    color: #118DA8;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.subscribe .title span:nth-child(2){
+    display: block;
+    width: 431px;
+    font-size: 72px;
+    line-height: 79px;
+}
+
+.subscribe form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.subscribe form input[type="text"],
+.subscribe form input[type="email"]{
+    background-color: #191919;
+    width: 522px;
+    line-height: 82px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 24px;
+    padding-left: 19px;
+
+    
+}
+
+
+.subscribe form input[type="submit"]{
+    background-color: #118DA8;
+    font-size: 15px;
+    line-height: 28px;
+    border-radius: 6px;
+    padding: 10px 15px;
+}
+
+.subscribe form input[type="text"]::placeholder,
+.subscribe form input[type="email"]::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
