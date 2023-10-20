@@ -1,6 +1,5 @@
 .nextLevel
 {
-    height: 913px;
     padding: 40px 70px 0 70px;
     display: flex;
 }
@@ -8,14 +7,12 @@
 .nextLevel .frontImg img
 {
     width: 100%;
-    height: 100%;
     position: relative;
     bottom: 74px;
 }
 .nextLevel .frontImg
 {
     width: 650px;
-    height: 873px;
     flex: none;
 }
 
@@ -174,8 +171,6 @@
 
 .lastEpisodes .episode img
 {
-    width: 389px;
-    height: 465px;
     margin-right: 53px;
 }
 
@@ -309,6 +304,7 @@
     width: 431px;
     font-size: 72px;
     line-height: 79px;
+    transition: 1s ease; 
 }
 
 .subscribe form{
@@ -341,5 +337,48 @@
 
 .subscribe form input[type="text"]::placeholder,
 .subscribe form input[type="email"]::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.reviews{
+    padding: 100px 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    
+}
+
+.reviews .review{
+    width: 423px;
+    height: 321px;
+    background-color: rgb(0, 0, 0);
+    padding: 50px 54px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.reviews .review:nth-child(3n - 1){
+    justify-self: center;
+}
+
+.reviews .review:nth-child(3n){
+    justify-self: right;
+}
+
+.reviews .review .stars{
+    margin-bottom: 21px;
+}
+
+.reviews .review span:nth-child(2){
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 19px;
+}
+
+.reviews .review span:nth-child(3){
+    font-size: 24px;
+    line-height: 29px;
     color: rgba(255, 255, 255, 0.7);
 }

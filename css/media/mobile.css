@@ -54,7 +54,7 @@
     }
 
     nav .burger:hover + ul /*+ означает следующий элемент и только он после burger (при наличии нескольких ul)*/
-    nav ul:hover
+    nav ul:hover a
     {
         display: block;
         position: absolute;
@@ -84,10 +84,6 @@
 
 @media (max-width: 630px){
 
-    .nextLevel .frontImg
-    {
-        height: 774px;
-    }
     .lastEpisodes .episode img
     {
         width: 95%;
@@ -109,10 +105,6 @@
 
 @media (max-width: 470px){
 
-    .nextLevel .frontImg
-    {
-        height: 600px;
-    }
 
     .episode .title{
         font-size: 50px;
@@ -128,8 +120,7 @@
         font-size: 42px;
         line-height: 49px;
         width: 230px;
-        transition-timing-function: ease;
-        transition-duration: 1s; 
+        transition: 1s ease; 
     }
 
     .subscribe form input[type="text"], /*ДОМАШНЕЕ ДОБАВЛЕНИЕ*/
