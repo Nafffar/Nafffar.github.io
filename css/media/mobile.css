@@ -53,7 +53,7 @@
         display: none;
     }
 
-    nav .burger:hover + ul /*+ означает следующий элемент и только он после burger (при наличии нескольких ul)*/
+    nav .burger:hover + ul, /*+ означает следующий элемент и только он после burger (при наличии нескольких ul)*/
     nav ul:hover a
     {
         display: block;
@@ -64,7 +64,7 @@
 
     header
     {
-        padding: 0 100px 0 50px ;
+        padding: 0 20px 0 20px ;
     }
 
     nav li
@@ -90,7 +90,7 @@
     }
 
     .lastEpisodes{
-        padding: 0;
+        padding: 0 10px;
     }
 
     .viewAll{
@@ -100,6 +100,71 @@
     }
     .viewAll span{
         text-align: center;
+    }
+
+    .reviews{
+        padding: 20px 10px;
+    }
+    .reviews .review span:nth-child(2){
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .links{
+        padding: 30px 10px;
+    }
+    
+    .subscribe{
+        padding: 30px 10px;
+    }
+
+    .block-inside{
+        padding: 30px 30px;
+        text-align: center;
+    }
+    
+    .bio{
+        padding: 0;
+    }
+
+    .button-arrow{
+        width: 40px;
+        height: 40px;
+        background-size: contain;
+        position: relative;
+        top: 55px;
+    }
+
+    .castaway{
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .nextLevel{
+        padding: 20px 30px 0 30px;
+    }
+
+    .nextLevel .content{
+        padding: 20px 0 0 0;
+    }
+
+    .nextLevel .content span{ /*этот блок влияет свойствами на следующий из-за схожего тега span*/
+    font-size: 40px;
+    line-height: 58px;
+    }
+
+    .nextLevel .textCont .spanNext{
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .nextLevel .textCont{
+        margin-bottom: 0;
+        text-align: center;
+        position: relative;
+        bottom: 60px;
     }
 }
 
@@ -134,5 +199,12 @@
         align-items: center;
     }
 
+}
+
+@media (max-width: 360px){
+
+    .reviews .review{
+        padding: 20px 20px;
+    }
 
 }
