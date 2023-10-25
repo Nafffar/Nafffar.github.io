@@ -1,384 +1,260 @@
-.nextLevel
-{
-    padding: 40px 70px 0 70px;
-    display: flex;
+.exclusive{  
+    padding: 0 32px;
+    margin-bottom: 120px;
 }
 
-.nextLevel .frontImg img
-{
-    width: 100%;
+.box-up{
+    display: flex;
+    justify-content: space-between;
     position: relative;
-    bottom: 74px;
-}
-.nextLevel .frontImg
-{
-    width: 650px;
-    flex: none;
+    z-index: 1;
 }
 
-
-.nextLevel .content
-{
-    transition: padding 1s ease;
-    padding: 350px 50px 0 50px;
-
+.title{
+    width: 794px;
+    margin-bottom: 40px;
 }
 
-.nextLevel .content span /*этот блок влияет свойствами на следующий из-за схожего тега span*/
-{
-    font-size: 70px;
-    line-height: 88px;
-    color: #ffffff;
-    font-family: "DMSans-Regular";
-
-}
-
-.nextLevel .textCont
-{
-    margin-bottom: 74px;
-}
-
-.nextLevel .textCont .spanNext
-{
-    background-image: url(../img/line.png);
-}
-
-.nextLevel .listenOn span
-{
-    font-size: 15px;
-    line-height: 24px;
-    margin-bottom: 16px;
-}
-
-.nextLevel .listenOn
-{
-    padding-left: 22px;
-}
-
-.nextLevel .imgCont a
-{
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    margin-right: 17px;  
-
-}
-.nextLevel .imgCont a:nth-child(1)
-{
-    background-image: url(../img/links/1.png);
-}
-
-.nextLevel .imgCont a:nth-child(2)
-{
-    background-image: url(../img/links/2.png); 
-}
-
-.nextLevel .imgCont a:nth-child(3)
-{
-    background-image: url(../img/links/3.png);
-}
-
-.nextLevel .imgCont a:nth-child(4)
-{
-    background-image: url(../img/links/4.png);
-}
-
-.nextLevel .imgCont a:nth-child(5)
-{
-    background-image: url(../img/links/5.png);
-}
-
-.nextLevel .imgCont a:last-child
-{
-    margin-right: 0;
-}
-
-.nextLevel .angle
-{
-    width: 68px;
-    height: 74px;
-    background-image: url("../img/angle.png");
-    position: relative;
-    z-index: 2;
-    right: 25px;
-    bottom: 25px;
-}
-
-/*Начинается блок lastEpisodes*/
-
-.lastEpisodes{
-    padding: 100px 70px 160px 70px;
-
-}
-.lastEpisodes .viewAll 
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.lastEpisodes .viewAll span{
-    
-    font-size: 54px;
-    line-height: 79px;
-}
-
-.lastEpisodes .viewAll a{
-    width: 178px;
-    height: 51px;
-    font-size: 17px;
-    line-height: 27px;
-    background-color: #118DA8;
-    border-radius: 6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-}
-
-.lastEpisodes .episode,
-.subscribe .episode 
-{
-    background-color: #000000;
-    border-radius: 32px;
-    display: flex;
-}
-
-.lastEpisodes .episode{
-    padding: 40px;
-    margin-bottom: 60px;
-}
-
-.subscribe .episode{
-    padding: 60px;
-    justify-content:space-between;
-}
-
-
-.lastEpisodes .episode:last-child
-{
-    margin-bottom: 0;
-}
-
-.lastEpisodes .episode .content
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: start; /*не позволяет растягивать блок на всю длину родительского блока*/
-}
-
-.lastEpisodes .episode img
-{
-    margin-right: 53px;
-}
-
-.lastEpisodes .episode .content div
-{
-    height: 27px;
-    background-color: #191919;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: center;
-    border-radius: 6px;
-    margin-bottom: 48px;
-    padding: 0 16px;
-}
-
-.episode .episodeNum{
-    font-size: 17px;
-    line-height: 27px;
-    color: #118DA8;
-    text-decoration: none;
-    margin-bottom: 18px;
-}
-
-.episode .title{
-    font-size: 64px;
-    line-height: 70px;
-    margin-bottom: 22px;
-}
-
-.episode .desc{
-    font-size: 22px;
-    line-height: 33px;
-    color: #FFFFFFB2;
-    margin-bottom: 18px;
-
-}
-
-.episode .details{
-    width: 208px;
-    height: 51px;
-    border-radius: 6px;
-    background-color:#118DA8;
-    text-decoration: none;
-    line-height: 51px;
-    text-align: center;
-}
-
- /*------------------домашка--------------------*/
-
-
-.block-inside{
-    display: flex;
-    justify-content: space-between;
-    padding: 100px 70px;
-}
-
-.bio{
-    padding: 147px 60px 147px 0;
-}
-
-.button-arrow{
-    display: block;
-    width: 112px;
-    height: 112px;
-    border-radius: 50%;
-    background-color: #118DA8;
-    margin-bottom: 20px;
-
-    background-image: url(../img/arrow.png);
-    background-repeat: no-repeat; /*не дублирует картинку внутри блока*/
-    background-position: center;
-    
-}
-
-.button-host{
-    font-size: 18px;
-    line-height: 27px;
-    color: #118DA8;
-    text-decoration: none; 
-    display: block;   
-}
-
-.host{
-   font-size: 65px;
-   line-height: 79px;
-   color: #ffffff; 
-   display: block;
-   margin-bottom: 28px;
-   
-}
-
-.his-bio{
-    font-size: 22px;
-    line-height: 33px;
-    color: #FFFFFFB2;
-    display: block;
-    margin-bottom: 33px;
-   
-}
-
-.bio .his-bio:last-child{
-    margin-bottom: 0;
-}
-
-.pictures-man img{ /*нужно ли оставлять свойство размеров пикчи если они уже по характеристикам соответсвуют необходимым? Да, лучше оставить, для наглядности*/
-    width: 650px;
-    height: 743px;
-}
-
-.subscribe{
-    padding: 100px 50px;
-}
-
-.subscribe .title{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; /*прижать к верхнему краю по очи Y*/
-    align-items: start; /*прижать к левой стороне по оси X*/
-    
-}
-
-
-.subscribe .title span:nth-child(1){
-    color: #118DA8;
-    font-size: 18px;
-    line-height: 27px;
-}
-
-.subscribe .title span:nth-child(2){
-    display: block;
-    width: 431px;
+.title span{
     font-size: 72px;
-    line-height: 79px;
-    transition: 1s ease; 
+    line-height: 86px;
+    color: #212529;
+    text-transform: uppercase;
+    font-family: "helvetica_regular";
 }
 
-.subscribe form{
+.description{
+    width: 445px;    
+}
+
+.description span{
+    font-size: 20px;
+    line-height: 28px;
+    color: #212529;
+}
+
+.referance a{   
+    display: block;
+    margin-top: 235px;
+    border-bottom: solid 1px rgba(33, 37, 41, 1);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #212529;
+    font-family: "Roboto-Regular";
+}
+
+.two-imgs{
     display: flex;
-    flex-direction: column;
-    align-items: start;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+    bottom: 84px;
 }
 
-.subscribe form input[type="text"],
-.subscribe form input[type="email"]{
-    background-color: #191919;
-    width: 522px;
-    line-height: 82px;
-    margin-bottom: 20px;
-    border-radius: 6px;
-    font-size: 24px;
-    padding-left: 19px;
+.smoll{
+    width: 329px;
+    height: 493px;    
+}
 
+.large{
+    width: 678px;
+    height: 809px;    
+}
+
+.box-history{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    padding: 0 32px; 
+}
+
+
+.first-box{
+    margin-right: 135px;  
+}
+
+.first-box span{
+    font-size: 48px;
+    line-height: 66px;
+    color: rgba(33, 37, 41, 1);
+    font-family: "helvetica_regular";
+
+}
+
+.second-box{
+    margin-bottom: 44px;
+}
+
+.second-box span{
+    display: block;
+    padding-right: 233px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #212529;
+    font-family: "Roboto-Regular";
+}
+
+.second-box span:last-child{
+    margin-bottom: 0;
+}
+
+.fird-box span{ /*Как можно оставить пропорции текста но при этом убрать свойства ширины и высоты?*/
+    display: block;
+    color: #212529; 
+    width: 146px;
+    height: 44px;
+}
+
+.fird-box span:nth-child(1),
+.fird-box span:nth-child(3),
+.fird-box span:nth-child(5){
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.fird-box span:nth-child(2),
+.fird-box span:nth-child(4),
+.fird-box span:nth-child(6){
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+
+.fird-box span:nth-child(6){
+    margin-bottom: 0;
+}
+
+.box-work{
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+} 
+
+.box-work .box-work-title span{
+    font-size: 48px;
+    line-height: 66px;
+    color: #212529;
+    font-family: "Helvetica_Regular";
+}
+
+.intro{
+    width: 325px;
+}
+
+.intro span{  /*Почему не работает правый отступ для сохранения пропорций текста и задается только через ширину блока*/
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 22px 0px 44px 4px;
+  
+} 
+
+.box-work-points .idea, .task, .offer, .preparation, .production{
+    display: flex;
+    margin-bottom: 24px;
+    border-bottom: solid 1px black;
+}
+
+.box-work-points .title-one{
+    width: 328px; /*Необходимо ли задвать здесь ширину или надо избавиться от неё?*/
+    font-size: 36px;
+    line-height: 50px;
+    margin-right: 20px;
     
 }
 
-
-.subscribe form input[type="submit"]{
-    background-color: #118DA8;
-    font-size: 15px;
-    line-height: 28px;
-    border-radius: 6px;
-    padding: 10px 15px;
+.box-work-points .title-two{
+    width: 329px; /*Необходимо ли задвать здесь ширину или надо избавиться от неё?*/
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 24px;
 }
 
-.subscribe form input[type="text"]::placeholder,
-.subscribe form input[type="email"]::placeholder{
-    color: rgba(255, 255, 255, 0.7);
+.box-work-points .production:last-child{
+    margin-bottom: 0;
 }
 
-.reviews{
-    padding: 100px 70px;
+.gallery{
+    padding: 0 32px;
+    margin-bottom: 120px;
+}
+
+.project{
+    margin-bottom: 32px;
+}
+
+.project span{
+    font-size: 48px;
+    line-height: 66px;
+    color: #212529;
+    margin-bottom: 32px;
+}
+
+.pictures{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
 
+.gallery .pictures img{
+    width: 100%;
     
 }
 
-.reviews .review{
-    width: 423px;
-    height: 321px;
-    background-color: rgb(0, 0, 0);
-    padding: 50px 54px;
-    border-radius: 32px;
+.coments-block{
+    padding: 0 32px 120px 32px;
+    margin-bottom: 32px;
+}
+
+.coments-block span{
+    display: block;
+    font-size: 48px;
+    line-height: 66px;
+    color: #212529;
+
+}
+
+.people-block{
     display: flex;
-    flex-direction: column;
-    margin-bottom: 16px;
+    justify-content: space-between;
 }
 
-.reviews .review:nth-child(3n - 1){
-    justify-self: center;
+
+.people-one, .people-two{
+    margin-right: 20px;
 }
 
-.reviews .review:nth-child(3n){
-    justify-self: right;
+.people-one, .people-two, .people-three{ /*как выровнить по цендру внутренние блоки*/
+
+    width: 445px;
+    height: 327px;
+    border: solid 1px black;
+    
 }
 
-.reviews .review .stars{
-    margin-bottom: 21px;
+.people-block p{ /*для img картинки ввиде запятых*/ /*выравнивания по центру необходимо заключить в теш <p> или можно другим способом???*/
+    padding: 45px 0 37px 0;
+    text-align: center;
 }
 
-.reviews .review span:nth-child(2){
-    font-size: 36px;
-    line-height: 43px;
-    margin-bottom: 19px;
+
+.people-one div, .people-two div, .people-three div{
+    padding: 0 40px;
+}
+.people-block .name{
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold; 
+    margin-bottom: 20px;
 }
 
-.reviews .review span:nth-child(3){
-    font-size: 24px;
-    line-height: 29px;
-    color: rgba(255, 255, 255, 0.7);
+.people-block span{
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;  
 }

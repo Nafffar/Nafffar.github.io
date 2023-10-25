@@ -1,6 +1,13 @@
-@font-face { /*подтягивание стиля из папки стилей текста*/
-    font-family: "DMSans-Regular";
-    font-style: normal; /*дефолтные значения*/
-    font-weight: normal;/*дефолтные значения*/
-    src: url(../fonts/DMSans-Regular.ttf);
+@font-face{
+    font-family: "Roboto-Regular";
+    font-style: normal;
+    font-weight: normal;
+    src:url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: "helvetica_regular";
+    font-style: normal;
+    font-weight: normal;
+    src:url(../fonts/helvetica_regular.otf)
 }

@@ -1,0 +1,210 @@
+@media(max-width: 1440px){
+    .wrap{
+        width: 100%;
+    } 
+}
+
+@media(max-width: 1280px){
+    .coments-block{
+        padding-bottom: 0;
+    }
+
+    .people-block p{
+        padding: 25px 0 20px 0;
+    }
+
+    .people-one div, .people-two div, .people-three div{
+        padding: 0 5px;
+    }
+    
+
+    .project-text h1{
+        transition: 2s ease;
+        font-size: 35px;
+        line-height: 55px;
+    }
+
+    .application-block{
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .application-picture{
+        margin: 0;
+    }
+    
+}
+
+@media(max-width: 1200px){
+    .box-up{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .box-text{
+        margin-bottom: 24px;
+    }
+
+    .box-text .title{
+        width: auto;
+    }
+    .box-text .description{
+        width: 100%;
+    }
+
+    .box-text .title span{
+        transition: 1s ease;
+        font-size: 52px;
+        line-height: 66px;
+    }
+
+    .referance{ /*растягивает подчеркивание на всю ширину, как это убрать или можно оставить свойство Флекс*/
+        display: flex;  
+    }
+
+    .referance a{
+        margin: 0;
+    }
+
+    .two-imgs .smoll{
+        display: none;
+    }
+
+    .two-imgs .large{
+        width: 100%;
+        height: 100%;
+        margin-top: 100px;
+    }
+
+    .box-work{
+        flex-direction: column;
+    }
+
+    
+}
+
+@media(max-width: 1024px){
+    .box-history{
+        flex-direction: column;
+    }
+    
+    .first-box{
+        margin: 0 0 20px 0;
+    }
+    
+}
+
+@media(max-width: 768px){
+    .idea, .task, .offer, .preparation, .production{
+        flex-direction: column; 
+    }
+
+    .box-work{
+        margin-bottom: 25px;
+        transition: 2s ease;
+    }
+
+    .box-work-points .title-one{
+        width: auto;
+        margin-right: 0;
+    }
+    .box-work-points .title-two{
+        width: 100%;
+    }
+
+    .gallery{
+        margin-bottom: 50px;
+    }
+
+    .gallery .project{
+        margin-bottom: 10px;
+    }
+
+    .gallery .project span{
+       font-size: 36px;
+       line-height: 42px; 
+       transition: 2s ease;
+    }
+
+    .gallery .pictures{
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+
+    .coments-block > span{
+        font-size: 36px;
+        line-height: 42px;
+        transition: 2s ease;
+        margin-bottom: 5px;
+    }
+
+    .people-block{
+        flex-direction: column;
+    }
+
+    .people-one, .people-two, .people-three{
+        margin-bottom: 24px;
+        margin-right: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .people-one div, .people-two div, .people-three div{
+        padding: 0 35px;
+        margin-bottom: 25px;
+    }
+
+    .people-block p img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .application-form{
+        width: auto;
+    }
+
+    .application-block form input[type="text"],
+    .application-block form input[type="email"],
+    .application-block form input[type="phone"]{
+        width: 100%;
+}
+}
+
+@media(max-width: 620px){
+
+    .exclusive{
+        margin-bottom: 0;
+    }
+
+    .box-text .title span{
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .box-history{
+        margin-bottom: 50px;
+    }
+
+    .cont-one .second-box span{
+        padding: 0;
+
+    }
+    
+    .last-block{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .rights, .policy, .social{
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 480px){
+    .gallery .pictures{
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+}   

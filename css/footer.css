@@ -1,107 +1,123 @@
-.links{
+.application-block{
     display: flex;
-    padding: 100px 70px;
+    padding: 0 32px;
+    margin-bottom: 120px;
 }
 
-.castaway{
-    width: 447px;
-    height: 222px;
-    margin-right: 16px;
+.application-picture{
+    margin-right: 136px;
 }
-.castaway img{
-    display: block;
-    margin-bottom: 20px;
-    
+
+.application-picture img{
+    width: 100%;
 }
-.links .castaway div{
+
+.project-text{
+    margin-bottom: 72px;
+}
+
+.project-text h1{
+    font-size: 48px;
+    line-height: 66px;
+    font-family: "helvetica_regular";
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.project-text span{
+    font-size: 16px;
+    line-height: 22px;
+
+}
+
+.application-block form{
     display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
-.links .castaway div a{
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-
-}
-.links .castaway a:nth-child(1){
-    background-image: url(../img/socialnetwork/inst.png);
-}
-
-.links .castaway a:nth-child(2){
-    background-image: url(../img/socialnetwork/twit.png);
+.application-block form input[type="text"], /*выровнить текст по верхнему краю (начинается с верхнего левого угла)*/
+.application-block form input[type="email"],
+.application-block form input[type="phone"]{
+    width: 562px;
+    height: 31px;
+    border: none;
+    border-bottom: solid 1px black;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 16px; 
 }
 
-.links .castaway a:nth-child(3){
-    background-image: url(../img/socialnetwork/facebook.png);
+.application-block form input[type="text"]::placeholder,
+.application-block form input[type="email"]::placeholder,
+.application-block form input[type="phone"]::placeholder{
+    color: rgba(33, 37, 41, 1); /*почему сздесь цвет текста задается через placeholder, а в submit без placeholder*/
+    text-align: start;
 }
 
-.links .castaway a:last-child{
+.application-block form input[type="submit"]{
+    background-color: rgba(33, 37, 41, 1);
+    margin-bottom: 40px;
+    padding: 12px 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.application-block .stores a{
+    display: inline-block;
+    width: 121px;
+    height: 36px;
+    margin-right: 8px;
+}
+
+.application-block .stores a:nth-child(1){
+    background-image: url(../imgs/google.png);
+}
+
+.application-block .stores a:nth-child(2){
+    background-image: url(../imgs/app.png);
+}
+
+.application-block .stores a:last-child{
     margin-right: 0;
 }
 
-.nav-links{
-    width: 179px;
-    margin-right: 16px;
+.last-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 32px;
+    margin-bottom: 16px;
 }
 
-.nav-links a{
-    display: block;
-    font-size: 17px;
-    line-height: 27px;
-    color: #FFFFFF;
-    text-decoration: none;
-    margin-bottom: 10px;
-}
-
-.about-links{
-    width: 179px;
-    height: 222px;
-    margin-right: 16px;
-}
-
-.about-links a{
+.rights span{
     display: block;
     font-size: 18px;
-    line-height: 27px;
-    color: #FFFFFF;
+    line-height: 21px;
+    color: #212529;
+    text-transform: uppercase;
+    font-family: "Roboto-Regular";
+}
+
+.policy a{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Roboto-Regular";
+    color: #212529;
     text-decoration: none;
-    margin-bottom: 10px;
 }
 
-.links .music-links a
-{
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    margin-right: 17px;  
-
-}
-.links .music-links a:nth-child(1)
-{
-    background-image: url(../img/links/1.png);
+.social{
+    width: 234px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.links .music-links a:nth-child(2)
-{
-    background-image: url(../img/links/2.png); 
-}
-
-.links .music-links a:nth-child(3)
-{
-    background-image: url(../img/links/3.png);
-}
-
-.links .music-links a:nth-child(4)
-{
-    background-image: url(../img/links/4.png);
-}
-
-.links .music-links a:nth-child(5)
-{
-    background-image: url(../img/links/5.png);
-}
-
-.links .music-links a:last-child
-{
-    margin-right: 0;
+.social a{
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "Roboto-Regular";
+    color: #212529;
+    text-transform: uppercase;
+    text-decoration: none;
 }

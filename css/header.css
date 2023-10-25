@@ -1,49 +1,48 @@
 header{
+    padding: 12px 32px 40px 32px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 119px;
-    padding: 0 50px 0 50px;
-    
 }
 
-nav ul
-{
-    list-style: none; /*убрали точки*/
-    line-height: 27px;
-    font-size: 17px;
+.logo img{
+    width: 70px;
+    height: 75px;
+}
+
+nav{
     display: flex;
 }
 
-nav li
-{
-    margin-right: 45px;
-}
-
-nav li:last-child /*отступ для последнего элемента*/
-{
-    margin-right: 0;
-}
-
-nav a
-{
+nav a{
     text-decoration: none;
-    color: #ffffff;
-    font-family: "DMSans-Regular";
+    color: #212529;
+    font-family: "Roboto-Regular";  
 }
 
-nav a:hover
-{
-    color: #118da8;
-    transition: color ease 1s;
+nav ul{
+    font-size: 18px;
+    line-height: 21px;
+    list-style: none;  
+    margin-right: 207px;
+}
+ 
+nav li{
+    margin-bottom: 8px;
 }
 
-nav .burger
-{
+nav .burger{
     width: 50px;
     height: 50px;
-    background-image: url(../img/burger.png);
-    background-size: cover;
+    background-image: url(../imgs/burger.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     display: none;
 }
 
+.telephone{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #212529;
+}
