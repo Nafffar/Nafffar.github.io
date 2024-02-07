@@ -1,0 +1,13 @@
+@font-face { /*подтягивание стиля из папки стилей текста*/
+    font-family: "OpenSans-Regular";
+    font-style: normal; /*дефолтные значения*/
+    font-weight: normal;/*дефолтные значения*/
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face { /*подтягивание стиля из папки стилей текста*/
+    font-family: "Cormorant-Light";
+    font-style: normal; /*дефолтные значения*/
+    font-weight: normal;/*дефолтные значения*/
+    src: url("../fonts/Cormorant-Light.ttf");
+}

@@ -1,0 +1,42 @@
+.Navigation{
+    margin: auto;
+    width: 1140px;
+    height: 60px;
+    background-color: #1D2F30;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    margin-left: 150px;
+}
+
+.sections{
+    margin-left: 196px;
+}
+
+.sections ul{
+    width: 512px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sections li{
+    list-style-type: none;
+}
+
+.sections a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'OpenSans-Regular';
+}
+
+.search{
+    margin-left: 296px;
+}
+
+.profile{
+    margin-left: 64px;  
+}

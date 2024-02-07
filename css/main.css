@@ -1,0 +1,106 @@
+
+.Intro{
+    width: 1140px;
+    height: 490px;
+    background-image: url(../imgs/backpicture.jpg);
+    background-size: cover;
+    margin: auto;
+}
+
+.transparent{
+    background-color: rgba(29, 47, 48, 0.3)
+}
+
+.Intro h1{
+    font-size: 60px;
+    line-height: 60px;
+    padding: 115px 587px 0px 165px;
+    color: ;
+}
+
+.Intro h2{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 780px 24px 165px; 
+}
+
+.Link-research{
+    padding: 0 1115px 115px 165px;
+    display: flex;
+    align-items: center;
+    
+}
+.Link-research a{
+    font-size: 16px;
+    margin-right: 10px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #BAE249;
+}
+
+
+
+
+.Cont-artifacts{
+    width: 100%;
+    height: 1303px;
+    background-color: #1D2F30;
+    padding: 60px 160px 0 160px;
+}
+
+.Cont-slider{
+    width: 1110px;
+    height: 555px;
+}
+
+
+.flower-blocks{
+ display: flex;
+ justify-content: space-between;   
+}
+
+.flower-first, .flower-second, .flower-third, .flower-fourth{
+    width: 255px;
+    height: 493px;
+    border: 1px solid black;
+   
+}
+
+.pictures-block{
+ background-color: #0B1919;
+}
+
+.numberFlower{
+    position: relative;
+    top: 16px;
+    left: 16px;
+}
+.pictureFlower{
+    padding: 0 16px 30px 16px;
+}
+
+.name-flower{
+    font-size: 24px;
+    line-height: 36px;
+    padding: 16px 107px 8px 16px;
+    font-family: "Cormorant-Light";
+    color: #FFFFFF;
+}
+
+.description{
+    font-size: 16px;
+    line-height: 24px;
+    color: #899D9D;
+    padding: 0 16px 16px 16px;
+}
+
+
+.details a{
+  color: #BAE249;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "OpenSans-Regular";
+  border: 1px solid #BAE249;
+  padding: 10.5px 28.5px;
+}
