@@ -11,3 +11,10 @@
     font-weight: normal;/*дефолтные значения*/
     src: url("../fonts/Cormorant-Light.ttf");
 }
+
+@font-face { /*подтягивание стиля из папки стилей текста*/
+    font-family: "Cormorant-Regular";
+    font-style: normal; /*дефолтные значения*/
+    font-weight: normal;/*дефолтные значения*/
+    src: url("../fonts/Cormorant-Regular.ttf");
+}

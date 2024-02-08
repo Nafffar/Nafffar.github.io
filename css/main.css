@@ -1,6 +1,6 @@
 
 .Intro{
-    width: 1140px;
+    width: 100%;
     height: 490px;
     background-image: url(../imgs/backpicture.jpg);
     background-size: cover;
@@ -8,36 +8,42 @@
 }
 
 .transparent{
-    background-color: rgba(29, 47, 48, 0.3)
+    height: 490px;
+    background-color: rgba(29, 47, 48, 0.6);
+    padding: 175px 587px 0px 165px;
 }
 
 .Intro h1{
+    width: 688px;
+    margin-bottom: 16px;
+    font-weight: 500;
     font-size: 60px;
     line-height: 60px;
-    padding: 115px 587px 0px 165px;
+    font-family: "Cormorant-Regular";
     color: #FFFFFF;
 }
 
 .Intro h2{
+    width: 635px;
+    margin-bottom: 24px;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    padding: 16px 780px 24px 165px; 
+    font-family: "OpenSans-Regular";
     color: #FFFFFF;
 }
 
 .Link-research{
-    padding: 0 1115px 115px 165px;
     display: flex;
-    align-items: center;
-    
-    
+    align-items: center;  
 }
 .Link-research a{
     font-size: 16px;
     margin-right: 10px;
     line-height: 22px;
-    text-decoration: none;
+    font-family: "OpenSans-Regular";
     color: #BAE249;
+    text-decoration: none;
 }
 
 
