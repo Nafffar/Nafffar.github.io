@@ -67,17 +67,36 @@
     padding-top: 60px;
 }
 
-.flower-blocks{
+.Cont-slider{
+    width: 1140px;
+    margin: auto;
+    
+}
+
+.slider{
     width: 1110px;
     margin: auto;
+    overflow: hidden;
+    
+}
+
+.flower-blocks{
+    width: 9999px;
+    margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+   
 }
 
 .flower{
     width: 255px;
     height: 493px;
-    border: 1px solid black;  
+    border: 1px solid black; 
+    margin-right: 30px; 
+}
+
+.flower:last-child{
+    margin-right: 0px;
 }
 
 .pictures-block{
@@ -108,11 +127,12 @@
 
 .description{
     display: block;
-    width: 190px; /*почему не сопоставляется с макетом?*/
+    width: 223px;
     height: 168px;
     font-size: 16px;
     line-height: 24px;
     color: #899D9D;
+    font-family: "OpenSans-Regular";
 }
 
 
