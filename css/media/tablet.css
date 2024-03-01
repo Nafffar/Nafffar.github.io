@@ -1,0 +1,122 @@
+@media (max-width: 1170px){
+
+    .Cont-artifacts{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .ContImg{
+        background-position: center;
+    }
+    
+    .Artifacts{
+        width: 100%;
+    }
+
+    .typesArtifact{
+        margin: auto;
+    }
+
+    .contForArtifacts{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 16px;
+    }
+
+    .scroller{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .scroller span{
+        text-align: center;
+    }
+
+    .articleArtifact{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding-bottom: 16px;
+    }
+
+    .slider{
+        width: 100%;
+    }
+
+    .Navigation, .Cont-slider, .Contfooter, .collectionCont{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 1140px){
+
+    .Navigation{
+        justify-content: space-between;
+    }
+
+    .search{
+        margin: 0;
+    }
+}
+
+@media (max-width: 920px){
+    .headerRight{
+        margin-left: 20px;
+    }
+
+    .sections{
+        margin: 0;
+    }
+
+    .headerLeft{
+        width: 702px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 880px){
+    .Contfooter{
+        width: auto;
+    }
+
+    .HelpProject span{
+        width: auto;
+    }
+}
+
+@media (max-width: 877px){
+    .scroller{
+        overflow: scroll;
+        overflow-y: hidden; /*убрать верхний скроллер */
+    }
+}
+
+@media (max-width: 760px){
+
+    .Intro h1{
+        transition: 1s ease;
+        font-size: 48px;
+        width: auto;
+    }
+
+    .Intro h2{
+        transition: 1s ease;
+        width: auto;
+    }
+}
+
+@media (max-width: 470px){
+    .Intro h2{
+        display: none;
+    }
+}
+
+@media (max-width: 410px){
+    .formForSend input[type="text"], 
+    .formForSend input[type="email"]{
+        width: auto;
+    }
+}

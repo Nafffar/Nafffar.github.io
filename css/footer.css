@@ -1,0 +1,107 @@
+.ContImg{
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    background-image: url(../imgs/footerbackground.png);
+    background-size: cover; 
+}
+
+.ContBackground{
+    width: 100%;
+    height: auto;
+    background-color: rgba(29, 47, 48, 0.6);
+}
+
+.Contfooter{
+  width: 1140px;
+  margin: auto;
+  padding: 60px 15px 71px 15px ;
+}
+
+
+
+.HelpProject h2{
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    font-family: "Cormorant-Italic";
+    color: #FFFFFF;
+}
+
+.HelpProject span{
+    display: block;
+    width: 825px;
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "OpenSans-Regular";
+    color: #FFFFFF;
+}
+
+.formForSend{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    
+}
+
+.formForSend input[type="text"], 
+.formForSend input[type="email"]{
+    width: 350px;
+    height: 45px;
+    margin-bottom: 24px;
+}
+
+input::placeholder{
+    padding-left: 20px;
+}
+
+.formForSend input[type="submit"]{
+    width: 145px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "OpenSans-Regular";
+    background-color: #BAE249;
+    color: #0B1919;
+    border: none;
+    cursor: pointer;
+}
+
+/* .formForSend input[type="submit"]:active{
+    background-color: #5c9728;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+} */
+
+.Reference{
+    height: 60px;
+    background-color: #0B1919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.SocialLinks{
+    width: 186px;
+    display: flex; 
+    justify-content: space-between;  
+}
+
+.SocialLinks img{
+    width: 24px;
+    height: 24px; 
+}
+
+.Author{
+    height: 22px;
+    background-color: #1D2F30;
+    text-align: center;
+}
+
+.Author span{
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "OpenSans-Regular";
+    color: #899D9D;
+}

@@ -10,33 +10,39 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/media/tablet.css">
+    <link rel="stylesheet" href="css/media/burger.css">
     <script src="jsp/index.js"></script>
 </head>
 <body>
     <div class="wrap">
         <header>
             <div class="Navigation">
-                <div class="logo">
-                <img src="imgs/logo.png" alt="">
+                <div class="headerLeft">
+                    <div class="logo">
+                    <img src="imgs/logo.png" alt="">
+                    </div>
+                    <div class="sections">
+                        <div class="burger"></div>
+                        <ul>
+                            <li><a href="">Каталог</a></li>
+                            <li><a href="">Галерея</a></li>
+                            <li><a href="">О лаборатории</a></li>
+                            <li><a href="">Контакты</a></li>
+                        </ul>
+                    </div>  
                 </div>
-                <div class="sections">
-                    <ul>
-                        <li><a href="">Каталог</a></li>
-                        <li><a href="">Галерея</a></li>
-                        <li><a href="">О лаборатории</a></li>
-                        <li><a href="">Контакты</a></li>
-                    </ul>
-                </div>
-                <div class="search">
-                    <a href=""><img src="imgs/search.png" alt=""></a>
-                </div>
-                <div class="profile">
-                    <a href=""><img src="imgs/log-in.png" alt=""></a>
-                </div>
+                <div class="headerRight">
+                    <div class="search">
+                        <a href=""><img src="imgs/search.png" alt=""></a>
+                    </div>
+                    <div class="profile">
+                        <a href=""><img src="imgs/log-in.png" alt=""></a>
+                    </div>
+                </div>    
             </div>
         </header>
-        <main>
-            
+        <main>  
             <div class="Intro">
                 <div class="transparent">
                     <div class="collectionCont">
@@ -58,32 +64,102 @@
                 <div class="Cont-slider">
                     <div class="slider">
                         <div class="flower-blocks">
-                        <!-- <div class="flower">
-                            <div class="pictures-block">
-                                <img class="numberFlower" src="imgs/2.4.png" alt="">
-                                <img class="pictureFlower" src="imgs/1.png" alt="">
-                            </div>
-                            <div class="about-flower">
-                                <span class="name-flower">Fig. 1 (plant)</span>
-                                <span class="description">Имеется спорная точка зрения,
-                                                        гласящая примерно следующее:
-                                                        активно развивающиеся страны 
-                                                        третьего мира своевременно верифицированы.
-                                </span>
-                            </div>
-                            <a class="details" href="">Подробнее</a>
-                        </div> -->
                         </div>
                     </div>    
                     <div class="buttons">
-                        <div class="arrowLeft"></div>
-                        <div class="couterSlider"></div>
-                        <div class="arrowRight"></div>
+                        <img class="buttonLeft" src="imgs/ArrowLeft.png">
+                        <div class="counterSlider"></div>
+                        <img class="buttonRight" src="imgs/ArrowRight.png">
                     </div>
                 </div>
             </div>
+            <div class="Artifacts">
+                
+                <div class="contForArtifacts">  
+                        <div class="scroller">
+                            <span class="titleArtifact">Новые артефакты</span>
+                            <div class="typesArtifact">
+                                <div class="Moh1">  
+                                    <img src="imgs/Moh1.png" alt="">
+                                    <span>4.2</span>
+                                </div>
+                                <div class="Moh2">
+                                    <img src="imgs/Moh2.png" alt="">
+                                    <span>7.2</span>
+                                </div>
+                                <div class="Palka">
+                                    <span>2.7</span>
+                                    <img src="imgs/Palka.png" alt="">
+                                </div>
+                                <div class="Cvetok">
+                                    <img src="imgs/Cvetok.png" alt="">
+                                    <span>5.1</span>
+                                </div>
+                                <div class="Listok">
+                                    <img src="imgs/Listok.png" alt="">
+                                    <span>9.1</span>
+                                </div>
+                                <div class="Kora">
+                                    <img src="imgs/Kora.png" alt="">
+                                    <span>1.7</span>
+                                </div>
+                                <div class="Byton">
+                                    <img src="imgs/Byton.png" alt="">
+                                    <span>2.3</span>
+                                </div>
+                            </div>
+                        </div>   
+                    <div class="articleArtifact">
+                        <h3>Kurische Nehrung 24</h3>
+                        <span>Вот вам яркий пример современных 
+                            тенденций - начало повседневной работы
+                            по формированию позиции выявляет срочную 
+                            потребность методов управления процессами.</span>
+
+                        <span>Есть над чем задуматься: представители 
+                            современных социальных резервов своевременно 
+                            верифицированы.</span>
+                        <div>
+                            <a href="">Читать далее</a>
+                            <img src="imgs/Arrow Read Next.png" alt="">
+                        </div>
+                    </div>
+                </div>    
+            </div>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="ContImg">
+                <div class="ContBackground">
+                    <div class="Contfooter">
+                        <div class="HelpProject">
+                            <h2>Помочь проекту</h2>
+                            <span>Равным образом, экономическая 
+                            повестка сегодняшнего дня не даёт нам 
+                            иного выбора, кроме определения прогресса 
+                            профессионального сообщества. Как принято считать, 
+                            элементы политического процесса рассмотрены исключительно
+                            в разрезе маркетинговых и финансовых предпосылок.</span>
+                            <form class="formForSend">
+                                <input type="text" name="name" placeholder="Имя"> <!-- как отодвинуть название внутри ячейки? -->
+                                <input type="email" name="email" placeholder="Email">
+                                <input type="submit" value="Отправить"> <!-- правильно ли заданы свойства? -->
+                            </form>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+            <div class="Reference">
+                <div class="SocialLinks">
+                    <img src="imgs/youtube.png" alt="">
+                    <img src="imgs/insta.png" alt="">
+                    <img src="imgs/facebook.png" alt="">
+                    <img src="imgs/twitter.png" alt="">
+                </div>
+            </div>
+            <div class="Author">
+                <span>f&b ® 2020</span>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

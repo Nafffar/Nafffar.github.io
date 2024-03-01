@@ -10,8 +10,29 @@
 
 }
 
+.headerLeft{
+    display: flex;
+    align-items: center;
+}
+
+.headerRight{
+    display: flex;
+    align-items: center;
+}
+
 .sections{
     margin-left: 125px;
+}
+
+.burger{
+    width: 35px;
+    height: 35px;
+    background-image: url(../imgs/hamburger.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+    margin-right: 50px;
+    
 }
 
 .sections ul{
@@ -29,10 +50,6 @@
     font-size: 16px;
     color: #FFFFFF;
     font-family: 'OpenSans-Regular';
-}
-
-.search{
-    margin-left: 296px;
 }
 
 .profile{

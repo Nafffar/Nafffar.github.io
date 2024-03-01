@@ -1,0 +1,34 @@
+/*---------------------BURGER---------------------------*/
+@media (max-width: 760px){
+    .burger{
+        display: block;
+    }
+
+    .sections ul{
+        display: none;
+    }
+    
+
+    .burger:hover + ul,
+    .sections ul:hover{
+        display: block;
+        position: absolute;
+        z-index: 1;  
+        top: 45px;
+    }
+    .sections ul{
+        padding-top: 15px;
+    }
+
+    .sections ul li{
+        padding-bottom: 5px;
+    }
+
+    .sections ul li:last-child{
+        padding-bottom: 0;
+    }
+    
+    .sections a{
+        font-size: 18px;
+    }
+}
